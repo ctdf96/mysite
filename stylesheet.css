@@ -13,16 +13,19 @@ body {
 
 li {
   list-style: none;
+/*バレットポイント消し*/
 }
 
 /* ここからCSSを記述してください */
 .header {
   background-color: #26d0c9;
   color: #fff;
+/*  floatを指定すると親要素の高さが0になるのでヘッダー自体に高さを設定  */
   height: 90px;
 }
 
 .header-logo {
+  /*<li>要素全体にfloat: left;を指定することで、それぞれの<li>要素が一つずつ左から並んでいき、横並びにすることができます。*/
   float: left;
   font-size: 36px;
   padding: 20px 40px;
